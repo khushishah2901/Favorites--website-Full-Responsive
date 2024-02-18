@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left-container{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(4, 4, 80);
+    position: fixed;
+    
+}
+
+.top-container{
+    height: 50%;
+    width: 100%;
+    
+}
+.hed{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+}
+.list li{
+    margin-top: 15px;
+}
+.botom-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 10px;
+}
+.for-image{
+    height: 40px;
+    width: 40px;
+    background-image: url("/earth\ logo.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+  
+}
+.for-name{
+    height: 10%;
+    width: 70%;
+    padding: 5px;
+}
+.name-heading{
+    color: white;
+}
+.right-container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-left: 20%;
+    padding: 20px;
+   
+}
+.for-favorates{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(170, 86, 249);
+    padding-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.for-favorates h1{
+    font-size: 50px;
+    color: white;
+}
+
+.container2{
+    height:90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+   
+.box{
+    height: 220px;
+    width: 260px;
+    margin: 10px;   
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.box-n{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.box-n h2{
+    color: rgb(17, 9, 127);
+    font-size: 30px;
+}
+@media(max-width:1090px) {
+    .left-container{
+        display: none;
+    }
+    .for-favorates{
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: blue;
+        width: 100%;
+        
+    }
+    .right-container{
+        margin-left:0%;
+    }
+
+    .box-n h2{
+        font-size: 40px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
